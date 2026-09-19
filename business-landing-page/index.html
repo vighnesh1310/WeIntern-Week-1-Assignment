@@ -3,32 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NexGen Digital - Modern Business Landing Page</title>
-    <!-- CSS Stylesheet -->
+    <title>NexGen Digital | Modern Business Solutions</title>
+    
+    <!-- Google Fonts for Clean Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons for beginner-friendly icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- Header / Navigation Bar -->
-    <header id="header">
-        <!-- Navigation content will be added here -->
+    <!-- ==============================================
+         1. Navigation Bar (Sticky & Mobile Responsive)
+         ============================================== -->
+    <header class="navbar-header">
+        <nav class="navbar container">
+            <!-- Brand Logo -->
+            <a href="#home" class="nav-logo">
+                <i class="fa-solid fa-rocket"></i> NexGen<span>Digital</span>
+            </a>
+
+            <!-- Navigation Menu Links -->
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item nav-btn-item">
+                    <a href="#contact" class="btn btn-primary nav-btn">Get Started</a>
+                </li>
+            </ul>
+
+            <!-- Mobile Hamburger Menu Button -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
     </header>
 
-    <!-- Main Content -->
+    <!-- Main Content Area -->
     <main>
-        <!-- Hero Section -->
-        <!-- About Section -->
-        <!-- Services Section -->
-        <!-- Why Choose Us / Features -->
-        <!-- Contact Form Section -->
+        <!-- ==============================================
+             2. Hero Section (Value Proposition & CTAs)
+             ============================================== -->
+        <section class="hero-section" id="home">
+            <div class="container hero-container">
+                <!-- Hero Left Column: Text Content -->
+                <div class="hero-text">
+                    <span class="badge"><i class="fa-solid fa-star"></i> Top Rated Digital Agency</span>
+                    <h1 class="hero-title">Grow Your Business With Modern Digital Solutions</h1>
+                    <p class="hero-description">
+                        We help ambitious companies design, build, and scale world-class websites, web applications, and digital marketing strategies that convert visitors into loyal customers.
+                    </p>
+                    
+                    <!-- Call To Action Buttons -->
+                    <div class="hero-cta-group">
+                        <a href="#contact" class="btn btn-primary">
+                            Get Started <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#services" class="btn btn-secondary">
+                            Explore Services
+                        </a>
+                    </div>
+
+                    <!-- Trust Stats Highlight -->
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <h3>150+</h3>
+                            <p>Projects Done</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>99%</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>24/7</h3>
+                            <p>Expert Support</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Right Column: Visual Showcase Card -->
+                <div class="hero-visual">
+                    <div class="visual-card main-card">
+                        <div class="card-header">
+                            <div class="dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="card-title-tag">NexGen Analytics Hub</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-preview">
+                                <div class="chart-bar bar-1"><span>SEO +85%</span></div>
+                                <div class="chart-bar bar-2"><span>Leads +120%</span></div>
+                                <div class="chart-bar bar-3"><span>Revenue +95%</span></div>
+                            </div>
+                            <div class="card-feature-item">
+                                <i class="fa-solid fa-circle-check"></i> High Conversion UI/UX
+                            </div>
+                            <div class="card-feature-item">
+                                <i class="fa-solid fa-circle-check"></i> 100% Responsive & Fast
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Floating Badge -->
+                    <div class="floating-badge">
+                        <i class="fa-solid fa-bolt"></i>
+                        <div>
+                            <h4>Lightning Fast</h4>
+                            <p>Optimized Performance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Placeholder comments for next steps: Services, About, Contact -->
     </main>
 
-    <!-- Footer -->
-    <footer id="footer">
-        <!-- Footer content will be added here -->
-    </footer>
-
-    <!-- JavaScript File -->
+    <!-- Custom JavaScript -->
     <script src="js/script.js"></script>
 </body>
 </html>
