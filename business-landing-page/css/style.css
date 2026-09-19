@@ -1,0 +1,29 @@
+/* ===================================================
+   NexGen Digital - Business Landing Page Stylesheet
+   Easy to understand & beginner-friendly CSS
+   =================================================== */
+
+/* 1. CSS Variables / Theme Colors */
+:root {
+    --primary-color: #2563eb;
+    --primary-dark: #1d4ed8;
+    --secondary-color: #0f172a;
+    --text-color: #334155;
+    --light-bg: #f8fafc;
+    --white: #ffffff;
+    --border-color: #e2e8f0;
+}
+
+/* 2. Global Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--white);
+}
