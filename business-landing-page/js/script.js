@@ -1,7 +1,4 @@
-/* ===================================================
-   NEXORA Technologies - Business Landing Page JavaScript
-   Sangli, Maharashtra | Beginner-Friendly Logic
-   =================================================== */
+
 
 document.addEventListener('DOMContentLoaded', () => {
     // ----------------------------------------------------
