@@ -16,10 +16,15 @@ This repository contains the completed assignments for Week 1 of the WeIntern We
 - **Technologies**: HTML5, CSS3 (Flexbox & Grid), Vanilla JavaScript.
 - **Features**: Sticky navbar with mobile hamburger menu, hero section with analytics visual card, 6-card services grid, interactive contact form with validation, office info, and footer.
 
+### 3. [Task 3: CSS Challenge - Flexbox, Grid & Animations](./css-challenge/)
+- **Description**: Practical CSS exercises covering modern responsive layouts and subtle UI animations.
+- **Technologies**: HTML5, CSS3 (Flexbox, CSS Grid, Transitions, Keyframes).
+- **Features**: Responsive 3-card Flexbox row, 6-item Grid dashboard with responsive rearrangement, and interactive CSS animation components (spinner, button hover, card lift, underline link, pulse badge).
+
 ---
 
 ## 🛠️ How to Run Any Assignment Locally
 
-1. Open the project folder (`portfolio-website` or `business-landing-page`).
+1. Open any project folder (`portfolio-website`, `business-landing-page`, or `css-challenge`).
 2. Double-click `index.html` to open it in your default web browser.
 3. Or use **VS Code Live Server** for live reload.
