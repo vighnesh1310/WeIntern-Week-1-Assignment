@@ -69,7 +69,7 @@ css-challenge/
 
 ## 🌐 Live Project Link
 
-- **Live Demo**: [https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/css-challenge/](https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/css-challenge/)
+- **Live Demo**: [https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/css-challenge/](https://css-challenge.vercel.app/)
 - **GitHub Repository**: [https://github.com/vighnesh1310/WeIntern-Week-1-Assignment](https://github.com/vighnesh1310/WeIntern-Week-1-Assignment)
 
 ---
