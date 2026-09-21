@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Challenge - Flexbox, Grid & Animations</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-code"></i> CSS<span>Challenge</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#flexbox" class="nav-link">Flexbox Layout</a>
+                <a href="#grid" class="nav-link">Grid Layout</a>
+                <a href="#animations" class="nav-link">Animations</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Intro -->
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">CSS Practical Challenges</h1>
+            <p class="hero-subtitle">
+                A showcase of modern CSS layout techniques and subtle animations using Flexbox, CSS Grid, and Keyframe animations.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Task 1: Flexbox Layout Task -->
+        <section id="flexbox" class="challenge-card">
+            <div class="section-header">
+                <div class="badge badge-blue">Task 1</div>
+                <h2>Flexbox Layout Challenge</h2>
+                <p>Responsive 3-card feature row created using CSS Flexbox. Displays horizontally on desktop and stacks vertically on mobile screens.</p>
+            </div>
+
+            <!-- Flexbox Card Row -->
+            <div class="flex-row">
+                <div class="feature-card">
+                    <div class="card-icon icon-blue">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <h3>Flexible Layouts</h3>
+                    <p>Flexbox simplifies aligning items and distributing space dynamically within a container along a single axis.</p>
+                    <a href="#flexbox" class="card-link">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="feature-card featured">
+                    <div class="popular-tag">Popular</div>
+                    <div class="card-icon icon-purple">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <h3>Fully Responsive</h3>
+                    <p>Adapts seamlessly across mobile phones, tablets, and desktop displays with clean media query breakpoints.</p>
+                    <a href="#flexbox" class="card-link">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="card-icon icon-green">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3>Modern Alignment</h3>
+                    <p>Effortlessly center elements, set equal heights, and maintain balanced gaps using justify-content and align-items.</p>
+                    <a href="#flexbox" class="card-link">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Task 2: CSS Grid Layout Task -->
+        <section id="grid" class="challenge-card">
+            <div class="section-header">
+                <div class="badge badge-purple">Task 2</div>
+                <h2>CSS Grid Dashboard Challenge</h2>
+                <p>Two-dimensional dashboard gallery built with CSS Grid using <code>repeat()</code> and responsive sizing across 6 items.</p>
+            </div>
+
+            <!-- Grid Container with 6 items -->
+            <div class="grid-container">
+                <div class="grid-card">
+                    <div class="grid-header">
+                        <div class="grid-icon bg-cyan">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <span class="grid-tag">Analytics</span>
+                    </div>
+                    <h4>Real-time Analytics</h4>
+                    <p>Track live traffic, visitor behavior, and retention metrics in real time.</p>
+                    <div class="grid-metric">
+                        <span class="metric-value">128.4k</span>
+                        <span class="metric-change positive"><i class="fa-solid fa-arrow-trend-up"></i> +14.2%</span>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-header">
+                        <div class="grid-icon bg-emerald">
+                            <i class="fa-solid fa-wallet"></i>
+                        </div>
+                        <span class="grid-tag">Revenue</span>
+                    </div>
+                    <h4>Monthly Revenue</h4>
+                    <p>Automated subscription billing, invoices, and payment tracking.</p>
+                    <div class="grid-metric">
+                        <span class="metric-value">$42,900</span>
+                        <span class="metric-change positive"><i class="fa-solid fa-arrow-trend-up"></i> +8.5%</span>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-header">
+                        <div class="grid-icon bg-amber">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <span class="grid-tag">Customers</span>
+                    </div>
+                    <h4>Active Customers</h4>
+                    <p>Engage new signups and manage customer retention pipelines.</p>
+                    <div class="grid-metric">
+                        <span class="metric-value">3,850</span>
+                        <span class="metric-change positive"><i class="fa-solid fa-arrow-trend-up"></i> +21.0%</span>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-header">
+                        <div class="grid-icon bg-rose">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <span class="grid-tag">Security</span>
+                    </div>
+                    <h4>Threat Protection</h4>
+                    <p>24/7 automated firewall monitoring, DDoS defense, and encryption.</p>
+                    <div class="grid-metric">
+                        <span class="metric-value">99.99%</span>
+                        <span class="metric-change neutral">Secure</span>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-header">
+                        <div class="grid-icon bg-indigo">
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                        </div>
+                        <span class="grid-tag">Cloud</span>
+                    </div>
+                    <h4>Cloud Storage</h4>
+                    <p>High-speed CDN caching and redundant cloud storage backups.</p>
+                    <div class="grid-metric">
+                        <span class="metric-value">1.4 TB</span>
+                        <span class="metric-change neutral">78% used</span>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-header">
+                        <div class="grid-icon bg-violet">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <span class="grid-tag">Support</span>
+                    </div>
+                    <h4>Support Tickets</h4>
+                    <p>Average resolution time and customer satisfaction scores.</p>
+                    <div class="grid-metric">
+                        <span class="metric-value">12m</span>
+                        <span class="metric-change positive"><i class="fa-solid fa-arrow-trend-up"></i> 98.6% CSAT</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Task 3: CSS Animations Task -->
+        <section id="animations" class="challenge-card">
+            <div class="section-header">
+                <div class="badge badge-pink">Task 3</div>
+                <h2>CSS Animation Showcase</h2>
+                <p>Clean, smooth, and professional UI animation components built using CSS <code>transition</code>, <code>transform</code>, and <code>@keyframes</code>.</p>
+            </div>
+
+            <div class="animation-grid">
+                <!-- 1. Button Hover Animation -->
+                <div class="anim-box">
+                    <h4>1. Button Hover Effect</h4>
+                    <p>Smooth transform scale, color transition, and soft elevation shadow on hover.</p>
+                    <div class="demo-area">
+                        <button class="btn btn-animated">Hover Over Me <i class="fa-solid fa-sparkles"></i></button>
+                    </div>
+                </div>
+
+                <!-- 2. Loading Spinner -->
+                <div class="anim-box">
+                    <h4>2. Loading Spinner</h4>
+                    <p>Continuous rotating spinner animation created using <code>@keyframes spin</code>.</p>
+                    <div class="demo-area">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+
+                <!-- 3. Card Lift Effect -->
+                <div class="anim-box">
+                    <h4>3. Card Lift on Hover</h4>
+                    <p>Interactive card with vertical translation and glowing border shadow feedback.</p>
+                    <div class="demo-area">
+                        <div class="lift-card">
+                            <i class="fa-solid fa-gem card-gem"></i>
+                            <h5>Interactive Card</h5>
+                            <small>Hover to lift up</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Animated Underline Link -->
+                <div class="anim-box">
+                    <h4>4. Animated Underline Link</h4>
+                    <p>Navigation link underline expanding from center using pseudo-element <code>::after</code>.</p>
+                    <div class="demo-area">
+                        <a href="#animations" class="animated-link">Explore Features</a>
+                    </div>
+                </div>
+
+                <!-- 5. Pulsing Status Indicator -->
+                <div class="anim-box">
+                    <h4>5. Pulsing Status Badge</h4>
+                    <p>Live glowing pulse animation indicating active online server status.</p>
+                    <div class="demo-area">
+                        <div class="status-badge">
+                            <span class="pulse-dot"></span>
+                            <span>System Online</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Smooth Fade-in Reveal -->
+                <div class="anim-box">
+                    <h4>6. Smooth Fade-In Reveal</h4>
+                    <p>Subtle fade-in and slide-up animation for introducing new UI content.</p>
+                    <div class="demo-area">
+                        <div class="fade-in-box">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span>Content Loaded</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 CSS Challenge - Week 1 Assignment | Built with Semantic HTML5 & Vanilla CSS</p>
+        </div>
+    </footer>
+
+</body>
+</html>
