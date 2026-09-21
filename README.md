@@ -94,7 +94,7 @@ week1-assignments/
 
 | Assignment | Live Demo Link | Source Code |
 | :--- | :--- | :--- |
-| **Task 1: Portfolio Website** | [Live Demo](https://css-challenge.vercel.app/) | [View Code](./portfolio-website/) |
+| **Task 1: Portfolio Website** | [Live Demo](https://portfolio-beta-silk-e21t48k2q8.vercel.app/) | [View Code](./portfolio-website/) |
 | **Task 2: Business Landing Page** | [Live Demo](https://business-landing-page-umber.vercel.app/) | [View Code](./business-landing-page/) |
 | **Task 3: CSS Challenge** | [Live Demo](https://css-challenge.vercel.app/) | [View Code](./css-challenge/) |
 
