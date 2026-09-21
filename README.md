@@ -73,12 +73,12 @@ week1-assignments/
 - **Objective**: Build a responsive personal portfolio website showcasing profile, education, skills, projects, and contact channels.
 - **Pages**: `index.html` (Home), `about.html` (About & Education), `projects.html` (Projects Gallery), `contact.html` (Contact Form).
 - **Key Features**: Multi-page responsive navigation with mobile drawer, project cards with live & GitHub links, direct resume PDF download, and contact validation.
-- **Live Demo**: [View Portfolio](https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/portfolio-website/)
+- **Live Demo**: [View Portfolio](https://portfolio-beta-silk-e21t48k2q8.vercel.app/)
 
 ### 2. [Task 2: Responsive Business Landing Page - NEXORA Technologies](./business-landing-page/)
 - **Objective**: Create a modern, high-converting business landing page for **NEXORA Technologies** based in **Sangli, Maharashtra**.
 - **Key Features**: Sticky navbar with mobile hamburger menu, hero section with analytics visual card, 6-card services grid with hover lift effects, interactive contact form with JavaScript validation, and office info.
-- **Live Demo**: [View Landing Page](https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/business-landing-page/)
+- **Live Demo**: [View Landing Page](https://business-landing-page-umber.vercel.app/)
 
 ### 3. [Task 3: CSS Challenge - Flexbox, Grid & Animations](./css-challenge/)
 - **Objective**: Practical mini-exercises focused on CSS Flexbox, CSS Grid, and subtle UI keyframe animations.
@@ -86,7 +86,7 @@ week1-assignments/
   - **Flexbox Layout**: 3-card desktop row with equal heights (`align-items: stretch`) and mobile vertical stacking (`<= 768px`).
   - **CSS Grid Layout**: 6 dashboard metric cards with responsive column restructuring (`repeat(3, 1fr)` $\to$ `repeat(2, 1fr)` $\to$ `1fr`).
   - **CSS Animations**: Button hover elevation, loading spinner (`@keyframes spin`), card lift effect, expanding underline navigation link, glowing pulse status badge, and fade-in content reveal.
-- **Live Demo**: [View CSS Challenge](https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/css-challenge/)
+- **Live Demo**: [View CSS Challenge](https://css-challenge.vercel.app/)
 
 ---
 
