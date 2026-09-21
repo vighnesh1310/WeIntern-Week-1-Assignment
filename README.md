@@ -94,9 +94,9 @@ week1-assignments/
 
 | Assignment | Live Demo Link | Source Code |
 | :--- | :--- | :--- |
-| **Task 1: Portfolio Website** | [Live Demo](https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/portfolio-website/) | [View Code](./portfolio-website/) |
-| **Task 2: Business Landing Page** | [Live Demo](https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/business-landing-page/) | [View Code](./business-landing-page/) |
-| **Task 3: CSS Challenge** | [Live Demo](https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/css-challenge/) | [View Code](./css-challenge/) |
+| **Task 1: Portfolio Website** | [Live Demo](https://css-challenge.vercel.app/) | [View Code](./portfolio-website/) |
+| **Task 2: Business Landing Page** | [Live Demo](https://business-landing-page-umber.vercel.app/) | [View Code](./business-landing-page/) |
+| **Task 3: CSS Challenge** | [Live Demo](https://css-challenge.vercel.app/) | [View Code](./css-challenge/) |
 
 ---
 
