@@ -48,6 +48,22 @@ The challenge is divided into three core mini-tasks:
 
 ---
 
+## 📸 Output Screenshots
+
+### 1. Flexbox Layout - Desktop View
+![Flexbox Desktop](../screenshots/flex-desktop.png)
+
+### 2. Flexbox Layout - Mobile View
+![Flexbox Mobile](../screenshots/flex-mobile.png)
+
+### 3. CSS Grid Layout - Dashboard View
+![Grid Layout](../screenshots/grid-layout.png)
+
+### 4. CSS Animation Showcase Components
+![Animation Demo](../screenshots/animation-demo.png)
+
+---
+
 ## 📁 File Structure
 
 ```text
