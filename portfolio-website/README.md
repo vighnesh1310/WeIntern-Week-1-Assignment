@@ -77,7 +77,7 @@ portfolio-website/
 
 ## 🌐 Live Project Link
 
-- **Live Demo**: [https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/portfolio-website/](https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/portfolio-website/)
+- **Live Demo**: [https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/portfolio-website/](https://portfolio-beta-silk-e21t48k2q8.vercel.app/)
 - **GitHub Repository**: [https://github.com/vighnesh1310/WeIntern-Week-1-Assignment](https://github.com/vighnesh1310/WeIntern-Week-1-Assignment)
 
 ---
