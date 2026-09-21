@@ -1,68 +1,54 @@
 # Task 1: Personal Portfolio Website - Vighnesh Laxman Kadam
 
-A modern, multi-page responsive personal portfolio website built using semantic **HTML5**, modern **CSS3**, and vanilla **JavaScript**.
+A modern, multi-page responsive personal portfolio website showcasing professional profile information, education, technical skills, featured projects, and an interactive contact form.
 
 ---
 
-## 📌 Project Overview
+## 🎯 Objective
 
-This portfolio website showcases the professional profile, technical skills, academic background, and software development projects of **Vighnesh Laxman Kadam** (Full Stack Developer).
-
-### 👨‍💻 Developer Profile
-- **Name**: Vighnesh Laxman Kadam
-- **Role**: Full Stack Developer
-- **Core Skills**: HTML5, CSS3, JavaScript, React.js, Node.js, Express, MongoDB, Git & GitHub
-- **Location**: Maharashtra, India
+To design and develop an accessible, responsive, and aesthetically pleasing personal portfolio website using standard web technologies. The site serves as a comprehensive developer hub to present credentials, project demonstrations, downloadable resume, and contact channels.
 
 ---
 
-## 📄 Pages & Architecture
+## 🛠️ Tech Stack
 
-1. **Home (`index.html`)**:
-   - Hero banner with introduction, animated role title, and avatar.
-   - Quick Call-to-Action buttons (View Projects, Contact Me, Download Resume).
-   - Core skills and highlights overview.
-
-2. **About Me (`about.html`)**:
-   - Detailed background narrative and career aspirations.
-   - Education timeline and academic qualifications.
-   - Comprehensive technical skills matrix (Frontend, Backend, Tools & Databases).
-   - Direct Resume download link (`assets/Vighnesh_Laxman_Kadam.pdf`).
-
-3. **Projects (`projects.html`)**:
-   - Featured projects showcase with live preview images and GitHub repository links:
-     - **Aether Finance**: Modern financial analytics and management dashboard.
-     - **CryptoTrack**: Real-time cryptocurrency tracking and market insights app.
-     - **OneToken**: Blockchain token management and decentralized ecosystem interface.
-   - Tech stack tags for each project card.
-
-4. **Contact (`contact.html`)**:
-   - Interactive contact form with client-side validation for Name, Email, Subject, and Message.
-   - Direct email, phone, and social media connectivity (LinkedIn, GitHub, Twitter).
+- **Frontend**: Semantic HTML5, CSS3 (Flexbox, CSS Grid, Custom Variables), Vanilla JavaScript (ES6+)
+- **Typography & Icons**: Google Fonts (Poppins), Font Awesome 6
+- **Version Control & Hosting**: Git, GitHub, GitHub Pages
 
 ---
 
-## ✨ Key Technical Features
+## ✨ Features Implemented
 
-- **Semantic & Clean HTML5**: Accessible structure with proper sectioning, header, nav, main, and footer elements.
-- **Responsive CSS Layout**: Built using CSS Flexbox, Grid, custom properties (CSS variables), and media queries for desktop, tablet, and mobile devices.
-- **Interactive JavaScript**: Mobile navigation menu drawer, smooth scrolling, and form validation.
-- **Assets & Resume Integration**: Direct PDF download integration and optimized project screenshots.
+1. **Multi-Page Architecture**:
+   - **Home (`index.html`)**: Interactive hero banner with animated role title, quick bio, profile avatar, and primary CTA buttons.
+   - **About Me (`about.html`)**: Personal background story, academic timeline, technical skills matrix, and direct resume download.
+   - **Projects (`projects.html`)**: Project gallery featuring live links, GitHub source links, project screenshots, and tech tags (Aether Finance, CryptoTrack, OneToken).
+   - **Contact (`contact.html`)**: Functional contact form with client-side JavaScript validation, direct email/phone cards, and social links.
+
+2. **Responsive Navigation & Mobile Drawer**:
+   - Sticky navbar with active page indicators.
+   - Hamburger menu drawer for mobile and tablet screen sizes (< 768px).
+
+3. **Modern Styling & Theming**:
+   - Consistent CSS custom properties (`--primary-color`, `--bg-dark`, `--shadow`, etc.).
+   - Fluid responsive breakpoints using CSS Flexbox and Grid.
+   - Interactive hover cards, smooth transitions, and focus outlines.
 
 ---
 
 ## 📂 Folder Structure
 
-```
+```text
 portfolio-website/
-├── index.html                # Homepage with hero & highlights
-├── about.html                # About page, education & skills
+├── index.html                # Homepage with hero & summary
+├── about.html                # About page, education & skills matrix
 ├── projects.html             # Projects gallery & case studies
 ├── contact.html              # Contact form & social connections
 ├── css/
 │   └── style.css             # Main stylesheet with responsive rules
 ├── js/
-│   └── script.js             # Mobile menu toggle & form interactions
+│   └── script.js             # Mobile drawer & form validation logic
 ├── assets/
 │   ├── Vighnesh_Laxman_Kadam.pdf  # Downloadable resume
 │   └── images/               # Project screenshots & profile avatar
@@ -75,9 +61,47 @@ portfolio-website/
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 Setup & Run Instructions
 
-1. Clone or download the repository.
-2. Navigate to the `portfolio-website/` directory.
-3. Open `index.html` in any modern web browser (Chrome, Edge, Firefox, Safari).
-4. Alternatively, use **VS Code Live Server** for live development preview.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vighnesh1310/WeIntern-Week-1-Assignment.git
+   ```
+2. Navigate to the `portfolio-website` folder:
+   ```bash
+   cd WeIntern-Week-1-Assignment/portfolio-website
+   ```
+3. Open `index.html` in any web browser (Chrome, Edge, Firefox, Safari) or launch via **VS Code Live Server**.
+
+---
+
+## 🌐 Live Project Link
+
+- **Live Demo**: [https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/portfolio-website/](https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/portfolio-website/)
+- **GitHub Repository**: [https://github.com/vighnesh1310/WeIntern-Week-1-Assignment](https://github.com/vighnesh1310/WeIntern-Week-1-Assignment)
+
+---
+
+## 📸 Screenshots
+
+### 1. Home Page - Desktop View
+![Portfolio Home Desktop](../screenshots/portfolio-home-desktop.png)
+
+### 2. Home Page - Mobile View
+![Portfolio Home Mobile](../screenshots/portfolio-home-mobile.png)
+
+### 3. Projects Showcase Page
+![Portfolio Projects](../screenshots/portfolio-projects.png)
+
+### 4. Contact Page & Form Validation
+![Portfolio Contact](../screenshots/portfolio-contact.png)
+
+---
+
+## 👤 Author Details
+
+- **Author**: Vighnesh Laxman Kadam
+- **Role**: Full Stack Web Development Intern
+- **Program**: WeIntern Internship - Week 1 Assignment
+- **GitHub**: [@vighnesh1310](https://github.com/vighnesh1310)
+- **Location**: Sangli, Maharashtra, India
