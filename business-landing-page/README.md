@@ -82,7 +82,7 @@ business-landing-page/
 
 ## 🌐 Live Project Link
 
-- **Live Demo**: [https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/business-landing-page/](https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/business-landing-page/)
+- **Live Demo**: [https://vighnesh1310.github.io/WeIntern-Week-1-Assignment/business-landing-page/](https://business-landing-page-umber.vercel.app/)
 - **GitHub Repository**: [https://github.com/vighnesh1310/WeIntern-Week-1-Assignment](https://github.com/vighnesh1310/WeIntern-Week-1-Assignment)
 
 ---
